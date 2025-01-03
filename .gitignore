@@ -176,7 +176,6 @@ Assets/NaninovelData/EditorResources.asset
 Assets/NaninovelData/Metadata.xml
 Assets/NaninovelData/Resources/Naninovel/Configuration/ChoiceHandlersConfiguration.asset
 Assets/NaninovelData/Resources/Naninovel/Configuration/TextPrintersConfiguration.asset
-Assets/Scenario/FirstScene.nani
 Packages/manifest.json
 Packages/packages-lock.json
 ProjectSettings/AudioManager.asset
