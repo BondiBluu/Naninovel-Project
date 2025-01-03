@@ -203,3 +203,9 @@ ProjectSettings/UnityConnectSettings.asset
 ProjectSettings/VersionControlSettings.asset
 ProjectSettings/VFXManager.asset
 ProjectSettings/XRSettings.asset
+Assets/NaninovelData/Resources/Naninovel/Configuration/CameraConfiguration.asset
+Assets/NaninovelData/Resources/Naninovel/Configuration/CharactersConfiguration.asset
+Assets/NaninovelData/Resources/Naninovel/Configuration/EngineConfiguration.asset
+Assets/NaninovelData/Resources/Naninovel/Configuration/InputConfiguration.asset
+Assets/NaninovelData/Resources/Naninovel/Configuration/ScriptsConfiguration.asset
+Assets/NaninovelData/Saves/GlobalSave.nson
