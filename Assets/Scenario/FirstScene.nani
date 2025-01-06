@@ -1,65 +1,82 @@
 @back DarkForest
+
 @sfx WoodsFootsteps loop:true
+
 Huff...huff....
+
 @back ForestFirefly
+
 Huff....puff...
+
 Haah...
+
 @char LostSoul pos:50,-30 scale:.9
+
 LostSoul: Haah....I have to leave here.
+
 LostSoul: She'll....she'll find me if I don't hurry...
+
 LostSoul: I have to...have to...
+
 @stopSFX WoodsFootsteps
+
 ???: Have to?
+
 LostSoul: ?!
+
 @char LostSoul pos:20,-30
+
 @char Reapers.ReaperGirl pos:60,-45 scale:1.5
-Girl in Black and Red:  No no, go on. What were you saying? I'm dying to hear it.
+
+Girl in Black and Red: No no, go on. What were you saying? I'm dying to hear it.
+
 @sfx WindBlowing
+
 @printer Fullscreen
+
 ...The distant sound of wind rustling through the trees permeates the silence between the two
+
 @stopSFX WindBlowing
+
 @resetText Fullscreen
+
 @printer Dialogue
+
 LostSoul: Haah...haah...
+
 LostSoul: N-no...
+
 LostSoul: Leave me alone! 
+
 LostSoul: Someone, someone help me, please!
+
 @printer Fullscreen
+
 ...The distant sound of wind rustling through the trees permeates the silence between the two
+
 The small child's screams echo into nothingness- her desperate pleas reaching no ears but the one in front of her.
+
 @resetText Fullscreen
+
 @printer Dialogue
+
 Girl in Black and Red: You can quit it right here. There's no one for miles that can hear you. Maybe if you had tried the village over, you might've gotten somewhere.
+
 @char Reapers.ReaperGirl pos:50,-45
+
 @sfx LightFootsteps loop:true
+
 Girl in Black and Red: Now then.
+
 @printer Fullscreen
+
 The girl in black inches closer, brandishing her weapon towards the girl.
+
 @resetText Fullscreen
+
 @printer Dialogue
+
 Girl in Black and Red: This is going to hurt you.
+
 @char Reapers.ReaperGirl pos:40,-45
-Girl in Black and Red: And I'm going to revel in every sound of pain you make.
-LostSoul: Please...
-@printer Fullscreen
-The girl nearly bursts into tears
-LostSoul: Please wait!
-@resetText Fullscreen
-@printer Dialogue
-LostSoul: Why are you doing this?
-@printer Fullscreen
-Her voice breaks out into sobs
-@resetText Fullscreen
-@printer Dialogue
-LostSoul: I just....I just want to go home...to mama...and papa..
-LostSoul: Mama's sick...I...I just want to get back...
-Girl in Black and Red: ...
-@stopSFX LightFootsteps
-@printer Fullscreen
-@stopSFX LightFootsteps
-The girl in black stops, her weapon poised as she looks down at the girl. There is no empathy for the small child in front of her.
-In fact, as the girl sobs uncontrollably, the one in black rolls her eyes.
-@resetText Fullscreen
-Finally, the girl in black pulls the scythe carelessly over her shoulder, her weight leaning to one side as she sighs.
-@printer Dialogue
-@stop
+
