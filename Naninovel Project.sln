@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elringus.Naninovel.Runtime", "Elringus.Naninovel.Runtime.csproj", "{07588f7e-a342-7f7d-5f6c-0befcb1dee30}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{68676cfb-51e1-959d-0412-2fbddcce7919}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elringus.Naninovel.Editor", "Elringus.Naninovel.Editor.csproj", "{a7bac11d-4592-c15c-4dab-1d885fc20015}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{6c52546b-d7aa-c66e-c012-fc712ec70772}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,8 +16,12 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{07588f7e-a342-7f7d-5f6c-0befcb1dee30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{07588f7e-a342-7f7d-5f6c-0befcb1dee30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68676cfb-51e1-959d-0412-2fbddcce7919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68676cfb-51e1-959d-0412-2fbddcce7919}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{a7bac11d-4592-c15c-4dab-1d885fc20015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{a7bac11d-4592-c15c-4dab-1d885fc20015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6c52546b-d7aa-c66e-c012-fc712ec70772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6c52546b-d7aa-c66e-c012-fc712ec70772}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

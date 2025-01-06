@@ -60,7 +60,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      guid: 309d4df5-0f8c-4316-9598-866b8ec74b32
+      guid: dfbba5f1-967d-4eb8-9551-0de6f4ed794e
       customData:
         rid: -2
       Pivot: {x: 0.5, y: 0.5}
