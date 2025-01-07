@@ -50,6 +50,8 @@ MonoBehaviour:
   Metadata:
     ids:
     - MainBackground
+    - MovingBGs
+    - GenericBGs
     metas:
     - Implementation: Naninovel.SpriteBackground, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
@@ -61,6 +63,62 @@ MonoBehaviour:
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       guid: dfbba5f1-967d-4eb8-9551-0de6f4ed794e
+      customData:
+        rid: -2
+      Pivot: {x: 0.5, y: 0.5}
+      PixelsPerUnit: 100
+      EnableDepthPass: 1
+      DepthAlphaCutoff: 0.5
+      CustomTextureShader: {fileID: 0}
+      CustomSpriteShader: {fileID: 0}
+      RenderTexture: {fileID: 0}
+      RenderRectangle:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1
+        height: 1
+      MatchMode: 0
+      CustomMatchRatio: 0
+      Poses: []
+    - Implementation: Naninovel.VideoBackground, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      Loader:
+        PathPrefix: Backgrounds
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      guid: ec984cb5-b7d7-4104-985b-a08eb40599e0
+      customData:
+        rid: -2
+      Pivot: {x: 0.5, y: 0.5}
+      PixelsPerUnit: 100
+      EnableDepthPass: 1
+      DepthAlphaCutoff: 0.5
+      CustomTextureShader: {fileID: 0}
+      CustomSpriteShader: {fileID: 0}
+      RenderTexture: {fileID: 0}
+      RenderRectangle:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1
+        height: 1
+      MatchMode: 0
+      CustomMatchRatio: 0
+      Poses: []
+    - Implementation: Naninovel.GenericBackground, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      Loader:
+        PathPrefix: Backgrounds
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      guid: c57cd5e8-9157-4daa-9c23-1bbb526ad340
       customData:
         rid: -2
       Pivot: {x: 0.5, y: 0.5}
