@@ -147,10 +147,10 @@
      <Compile Include="Assets\Naninovel\Runtime\Command\ProcessInput.cs" />
      <Compile Include="Assets\Naninovel\Runtime\UI\Tips\TipsReturnButton.cs" />
      <Compile Include="Assets\Naninovel\Runtime\State\IOGlobalStateSlotManager.cs" />
-     <Compile Include="Assets\Naninovel\Runtime\Common\ScriptableUI\ScriptableDropdown.cs" />
      <Compile Include="Assets\Naninovel\Runtime\Spawn\ISpawnManager.cs" />
      <Compile Include="Assets\Naninovel\Runtime\Common\ScriptableUI\ScriptableLabeledButton.cs" />
      <Compile Include="Assets\Naninovel\Runtime\Script\IScriptManager.cs" />
+     <Compile Include="Assets\Naninovel\Runtime\Common\ScriptableUI\ScriptableDropdown.cs" />
      <Compile Include="Assets\Naninovel\Runtime\ResourceProvider\ResourcePolicy.cs" />
      <Compile Include="Assets\Naninovel\Runtime\Common\Utilities\LinqUtils.cs" />
      <Compile Include="Assets\Naninovel\Runtime\FX\Snow.cs" />
