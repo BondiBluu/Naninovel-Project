@@ -126,4 +126,10 @@ Finally, the girl in black pulls the scythe carelessly over her shoulder, her we
 
 @printer Dialogue
 
+Girl in Black and Red: Oh...?
+
+@choice "Huh. Maybe..." goto:MercyChoice
+
+@choice "Say Goodbye." goto:NoMercyChoice
+
 @stop
