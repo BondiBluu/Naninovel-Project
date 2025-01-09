@@ -89,7 +89,9 @@ LostSoul: What exactly do they teach you younguns now 'adays?
 @char LostSoul pos:15,-40
 
 @char Reapers.ReaperGirl pos:40,-200
+
 @sfx BodyFall
+
 The child roughly forced the blade out of her victim, letting her crumple to the ground.
 Miraculously, the young woman was still alive, but barely as she coughed and sputtered, clutching her stomach desperately.
 
@@ -106,10 +108,13 @@ LostSoul: I killed those little goody goodies a while ago, hee hee~
 LostSoul: Oh....speaking of.
 
 @char LostSoul pos:50,-20
+
 @char LostSoul pos:50,-30
+
 @printer Fullscreen
 
 @spawn ShakeBackground
+
 The child proceeded to playfully hop on the back of the young woman, ending her jump with a rough stomp on her back.
 The girl writhed in pain- all she could do as the situation was no longer in her favor.
 
@@ -130,7 +135,9 @@ LostSoul: Hee hee...
 @printer Fullscreen
 
 @char LostSoul pos:55,-20
+
 @char LostSoul pos:60,-30
+
 The girl hopped off her victim's back with a spring in her step, turning cheerfully around and leaning over to meet the one in black.
 
 @resetText Fullscreen
@@ -146,11 +153,13 @@ Her smile was sharp, her eyes wide- akin to a demon.
 @printer Dialogue
 
 @char LostSoul pos:70,-30
+
 LostSoul: I'll drag you to the next town over. And you'll hear the screams of every single person I've killed. Then, after you've  recognized your failure, I'll send you to hell.
 
 LostSoul: Oh boy- this'll be so much fun~!
 
 @char LostSoul pos:80,-30
+
 @resetText Fullscreen
 
 @printer Fullscreen
