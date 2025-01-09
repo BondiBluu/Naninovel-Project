@@ -130,6 +130,8 @@ Finally, the girl in black pulls the scythe carelessly over her shoulder, her we
 
 Reapers: Oh...?
 
+@resetText Fullscreen
+
 @choice "Huh. Maybe..." goto:MercyChoice
 
 @choice "Say Goodbye." goto:NoMercyChoice

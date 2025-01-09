@@ -2,8 +2,41 @@
 
 @char LostSoul pos:20,-30
 
-Reapers: Hey...
+Reapers: You...
 
-Reapers: 
+Reapers: Oh shut up, you.
+
+@spawn ShakeCharacter params:LostSoul
+
+LostSoul: !?
+
+@printer Fullscreen
+
+The young woman smirked, slinging her weapon over her shoulder casually.
+
+She looked down at the small, innocent girl with contempt, smirking all the while.
+
+@resetText Fullscreen
+
+@printer Dialogue
+
+Reapers: Is that what you said to that boy you killed?
+
+@spawn ShakeCharacter params:LostSoul
+
+LostSoul: ...! W-w-what...?
+
+@printer Fullscreen
+
+A look of surprise showed on the young girl's face.
+
+@printer Dialogue
+
+@resetText Fullscreen
+
+Her eyes gleamed with a with a sense of smugness.
+
+
+
 
 @stop
