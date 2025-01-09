@@ -1,3 +1,5 @@
+@resetText Fullscreen
+
 @char Reapers.ReaperGirl pos:40,-45
 
 @char LostSoul pos:20,-30
@@ -10,6 +12,8 @@ Reapers: Okay, okay....quit crying...
 
 The young woman looked away awkwardly, leaning on her weapon. Clearly, de-escalation was not her strong suit.
 
+@resetText Fullscreen
+
 @printer Dialogue
 
 Reapers: M-maybe I got the wrong the wrong one.
@@ -18,24 +22,30 @@ LostSoul: *Sniff sniff* Hm...?
 
 Reapers: Here, I'll even put my weapon away.
 
-@printer Dialogue
+@printer Fullscreen
 
 As a show of peace, the girl in black dismissed her weapon in a puff of black smoke.
 With that, she raised her hands and gave the little girl, who was currently wiping her tears, a wide smile.
 In response, the small child blinked twice, staring up in disbelief.
 
+@resetText Fullscreen
+
 @printer Dialogue
 
 Reapers: See, now we can-
 
+@sfx StabSound
 *SHNK!*
 
+@spawn ShakeCharacter params:Reapers
 Reapers: Kuh?!
 
 @printer Fullscreen
 
-Blood pooled over the side of the the black haired girl's mouth, surprised evident on her face.
+Blood pooled over the side of the the black haired girl's mouth, surprise evident on her face.
 Gradually, pain bloomed in her stomach and back, unlike anything she had ever felt.
+
+@resetText Fullscreen
 
 @printer Dialogue
 
@@ -48,7 +58,10 @@ There, a blade found itself embedded into her, through her stomach and out the o
 The owner of the blade?
 
 @resetText Fullscreen
+
 The now smiling little girl.
+
+@resetText Fullscreen
 
 @printer Dialogue
 
@@ -59,7 +72,11 @@ Reapers: Guh...you....
 She tried to will her weapon to her, but to no avail.
 The smaller girl's smile grew. There was no kind of kindness on her face, but one of pure delight.
 
+@resetText Fullscreen
+
 @printer Dialogue
+
+@char LostSoul pos:20,-25
 
 LostSoul: I can't believe you're all so stupid....
 
@@ -67,10 +84,16 @@ LostSoul: All I have to do is flaunt these pretty little eyes and you'll do anyt
 
 LostSoul: What exactly do they teach you younguns now 'adays?
 
-@printer Fullscreen 
+@printer Fullscreen
 
+@char LostSoul pos:15,-40
+
+@char Reapers.ReaperGirl pos:40,-200
+@sfx BodyFall
 The child roughly forced the blade out of her victim, letting her crumple to the ground.
 Miraculously, the young woman was still alive, but barely as she coughed and sputtered, clutching her stomach desperately.
+
+@resetText Fullscreen
 
 @printer Dialogue
 
@@ -82,10 +105,15 @@ LostSoul: I killed those little goody goodies a while ago, hee hee~
 
 LostSoul: Oh....speaking of.
 
+@char LostSoul pos:50,-20
+@char LostSoul pos:50,-30
 @printer Fullscreen
 
+@spawn ShakeBackground
 The child proceeded to playfully hop on the back of the young woman, ending her jump with a rough stomp on her back.
 The girl writhed in pain- all she could do as the situation was no longer in her favor.
+
+@resetText Fullscreen
 
 @printer Dialogue
 
@@ -101,7 +129,11 @@ LostSoul: Hee hee...
 
 @printer Fullscreen
 
-The girl hopped off her victim's back with a sping in her step, turning cheerfully around and leaning over to meet the one in black.
+@char LostSoul pos:55,-20
+@char LostSoul pos:60,-30
+The girl hopped off her victim's back with a spring in her step, turning cheerfully around and leaning over to meet the one in black.
+
+@resetText Fullscreen
 
 @printer Dialogue
 
@@ -113,8 +145,16 @@ Her smile was sharp, her eyes wide- akin to a demon.
 
 @printer Dialogue
 
+@char LostSoul pos:70,-30
 LostSoul: I'll drag you to the next town over. And you'll hear the screams of every single person I've killed. Then, after you've  recognized your failure, I'll send you to hell.
 
 LostSoul: Oh boy- this'll be so much fun~!
+
+@char LostSoul pos:80,-30
+@resetText Fullscreen
+
+@printer Fullscreen
+
+GAME OVER
 
 @stop
