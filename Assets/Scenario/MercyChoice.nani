@@ -3,4 +3,39 @@
 @char LostSoul pos:20,-30
 
 Reapers: Hey...
+
+Reapers: Okay, okay....quit crying...
+
+@printer Fullscreen
+
+The young woman looked away awkwardly, leaning on her weapon. Clearly, de-escalation was not her strong suit.
+
+@printer Dialogue
+
+Reapers: M-maybe I got the wrong the wrong one.
+
+LostSoul: *Sniff sniff* Hm...?
+
+Reapers: Here, I'll even put my weapon away.
+
+@printer Dialogue
+
+As a show of peace, the girl in black dismissed her weapon in a puff of black smoke.
+With that, she raised her hands and gave the little girl, who was currently wiping her tears, a wide smile.
+In response, the small child blinked twice, staring up in disbelief.
+
+@printer Dialogue
+
+Reapers: See, now we can-
+
+*SHNK!*
+
+Reapers: Kuh?!
+
+@printer Dialogue
+
+Blood pooled over the side of the the black haired girl's mouth, surprised evident on her face.
+
+@printer Dialogue
+
 @stop
