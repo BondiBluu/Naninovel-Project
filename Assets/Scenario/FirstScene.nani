@@ -26,9 +26,9 @@ LostSoul: ?!
 
 @char LostSoul pos:20,-30
 
-@char Reapers.ReaperGirl pos:60,-45 scale:1.5
+@char Reapers pos:60,-45 scale:1.5
 
-Girl in Black and Red: No no, go on. What were you saying? I'm dying to hear it.
+Reapers: No no, go on. What were you saying? I'm dying to hear it.
 
 @sfx WindBlowing
 
@@ -60,13 +60,13 @@ The small child's screams echo into nothingness- her desperate pleas reaching no
 
 @printer Dialogue
 
-Girl in Black and Red: You can quit it right here. There's no one for miles that can hear you. Maybe if you had tried the village over, you might've gotten somewhere.
+Reapers: You can quit it right here. There's no one for miles that can hear you. Maybe if you had tried the village over, you might've gotten somewhere.
 
 @char Reapers.ReaperGirl pos:50,-45
 
 @sfx LightFootsteps loop:true
 
-Girl in Black and Red: Now then.
+Reapers: Now then.
 
 @printer Fullscreen
 
@@ -76,11 +76,11 @@ The girl in black inches closer, brandishing her weapon towards the girl.
 
 @printer Dialogue
 
-Girl in Black and Red: This is going to hurt you.
+Reapers: This is going to hurt you.
 
 @char Reapers.ReaperGirl pos:40,-45
 
-Girl in Black and Red: And I'm going to revel in every sound of pain you make.
+Reapers: And I'm going to revel in every sound of pain you make.
 
 LostSoul: Please...
 
@@ -108,7 +108,7 @@ LostSoul: I just....I just want to go home...to mama...and papa..
 
 LostSoul: Mama's sick...I...I just want to get back...
 
-Girl in Black and Red: ...
+Reapers: ...
 
 @stopSFX LightFootsteps
 
@@ -124,9 +124,11 @@ In fact, as the girl sobs uncontrollably, the one in black rolls her eyes.
 
 Finally, the girl in black pulls the scythe carelessly over her shoulder, her weight leaning to one side as she sighs.
 
-@printer Dialogue
+@printer Wide
 
-Girl in Black and Red: Oh...?
+@char Reapers avatar:Reapers.ReaperGirl
+
+Reapers: Oh...?
 
 @choice "Huh. Maybe..." goto:MercyChoice
 
