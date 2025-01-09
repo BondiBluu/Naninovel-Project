@@ -32,10 +32,35 @@ Reapers: See, now we can-
 
 Reapers: Kuh?!
 
-@printer Dialogue
+@printer Fullscreen
 
 Blood pooled over the side of the the black haired girl's mouth, surprised evident on her face.
+Gradually, pain bloomed in her stomach and back, unlike anything she had ever felt.
 
 @printer Dialogue
+
+LostSoul: I truly can't believe it....
+
+@printer Fullscreen
+
+The girl in black's gaze slowly lowered to her midsection.
+There, a blade found itself embedded into her, through her stomach and out the other side.
+The owner of the blade?
+
+@resetText Fullscreen
+The now smiling little girl.
+
+@printer Dialogue
+
+Reapers: Guh...you....
+
+@printer Fullscreen
+
+She tried to will her weapon to her, but to no avail.
+The smaller girl's smile grew. There was no kind of kindness on her face, but one of pure delight.
+
+@printer Dialogue
+
+LostSoul: I can't believe you're all so stupid....
 
 @stop
