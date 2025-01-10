@@ -29,13 +29,133 @@ LostSoul: ...! W-w-what...?
 @printer Fullscreen
 
 A look of surprise showed on the young girl's face.
+Not disbelief, but a sense that she was caught off guard.
 
 @printer Dialogue
 
 @resetText Fullscreen
 
-Her eyes gleamed with a with a sense of smugness.
+Her eyes gleamed with a with a sense of smugness before continuing.
 
+@resetText Fullscreen
+
+@printer Dialogue
+
+Reapers: Mama! Papa! What a load of crap. According to my list...
+
+Reapers: You killed them both a long time ago.
+
+LostSoul: W-what..? I...I could never...k-kill anybody...
+
+@printer Fullscreen
+
+The girl fiddled with her dress, looking down.
+She looked pitiful, sad and lonely.
+
+@resetText Fullscreen
+@printer Dialogue
+
+LostSoul:I...I could never....Mama...Papa...
+
+Reapers: Is that the same act you gave that boy you killed?
+
+@spawn ShakeCharacter params:LostSoul
+
+LostSoul: ...!
+
+;move reaper up and down
+Reapers: Heh. There it is.
+
+LostSoul: B-but...I....
+
+@printer Fullscreen
+
+She sputtered and stammered, clearly caught off guard.
+
+@resetText Fullscreen
+@printer Dialogue
+
+LostSoul: Who are you-
+
+Reapers: I was teexting him right before he went on a hunt. Something about a tenacious killer. He wouldn't let his guard down, he said.
+
+Reapers: Heh...he always did have a soft spot for crying little girls.
+
+Reapers: It's been almost three weeks since I heard from him. I suppose that was you?
+
+LostSoul: ...
+
+@printer Fullscreen
+
+A pause filled the empty forest.
+One could hear the heartbeats of the two if they listened close enough.
+...
+If the little girl had a heart.
+
+@resetText Fullscreen
+@printer Dialogue
+
+LostSoul: Hee...
+
+;have her bounce
+
+LostSoul: Hee hee...
+
+@printer Fullscreen
+A small, childlike giggling fiiled the forest.
+The child held her fist to her mouth, laughing quietly as she looked up to the girl in red and black.
+But her eyes...
+
+@resetText Fullscreen
+
+Her eyes showed no light. Not a glimmer of hope or childlike innocence.
+Her lips were carved into a sharp, lopsided smile as the continued.
+
+@resetText Fullscreen
+@printer Dialogue
+
+LostSoul: And what if it was?
+
+@resetText Fullscreen
+
+Her voice was no longer sweet and innocent, 
+more like that of an adult who gleefully committed sins,
+much to the detriment of all.
+
+@resetText Fullscreen
+@printer Dialogue
+
+LostSoul: He was sooooo stupid~ Who buys into tears, anyway?
+
+LostSoul: I'd tear into 'em either way.
+
+LostSoul: The look of disbelief was HILARIOUS. Like, come on, don't you trust that stupid list of yours?
+
+LostSoul: Human emotions are WAY too easy to manipulate.
+
+LostSoul: But you....I like you. I think I'll take my time with you.
+
+@char LostSoul.GrownWoman transition:DropFade time:3
+
+@resetText Fullscreen
+
+The 'child' began growing.
+Her hair grew longer, her lifeless eyes maturing with age.
+It seemed as though the form she took was no longer needed.
+
+@resetText Fullscreen
+@printer Dialogue
+
+;bgm heartbeat
+@bgm 
+
+LostSoul.GrownWoman: I'm going to send you to Hell with the next village over. I hope you're ready.
+
+Reapers: As a Reaper, it is my sole duty to exorcise spirits with malicious intent. You can try.
+
+
+
+@spawn
 
 
 
