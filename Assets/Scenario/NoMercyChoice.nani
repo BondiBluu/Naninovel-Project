@@ -165,9 +165,9 @@ LostSoul.GrownWoman: I'm going to send you to Hell with the next village over. I
 
 Reapers: As a Reaper, it is my sole duty to exorcise spirits with malicious intent. You can try.
 
-@char Reapers.ReaperGirl visible:false transition:Fade time:.5
+@char Reapers.ReaperGirl transition:Fade visible:false time:.5
 
-@char LostSoul visible:false transition:Fade time:.5
+@char LostSoul transition:Fade visible:false time:.5
 
 @back ForestMovingBG.Fade id:MovingBGs time:4
 
@@ -178,10 +178,28 @@ Later...
 @resetText Fullscreen
 @printer Dialogue
 
-@char Reapers.ReaperGirl pos:50,-45 visible:true transition:FadeIn time:2
+@char Reapers.ReaperGirl pos:50,-45 transition:FadeIn visible:true time:2
+
+@stopBGM PromisedBloodBGM fade:10
 
 Reapers: Phew...
 
+@printer Fullscreen
 
+The battle had lasted until sunrise, both combatants fighting for their lives.
+In the end, the girl in black stood victorious.
+As she caught her breath, she fished an iitem out of her pocket.
+
+@resetText Fullscreen
+
+@printer chat
+
+Reapers: Hey. It's done. 
+
+Reapers: Sorry I was a bit late, but I hope you can rest in peace.
+
+@printer Fullscreen
+
+END
 
 @stop
