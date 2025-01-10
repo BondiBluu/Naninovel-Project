@@ -20,7 +20,7 @@ She looked down at the small, innocent girl with contempt, smirking all the whil
 
 @printer Dialogue
 
-Reapers: Is that what you said to that boy you killed?
+Reapers: Do you say that to all your victims?
 
 @spawn ShakeCharacter params:LostSoul
 
@@ -31,11 +31,9 @@ LostSoul: ...! W-w-what...?
 A look of surprise showed on the young girl's face.
 Not disbelief, but a sense that she was caught off guard.
 
-@printer Dialogue
-
 @resetText Fullscreen
 
-Her eyes gleamed with a with a sense of smugness before continuing.
+The young woman's eyes gleamed with a with a sense of smugness before continuing.
 
 @resetText Fullscreen
 
@@ -55,7 +53,7 @@ She looked pitiful, sad and lonely.
 @resetText Fullscreen
 @printer Dialogue
 
-LostSoul:I...I could never....Mama...Papa...
+LostSoul: I...I could never....Mama...Papa...
 
 Reapers: Is that the same act you gave that boy you killed?
 
@@ -63,7 +61,9 @@ Reapers: Is that the same act you gave that boy you killed?
 
 LostSoul: ...!
 
-;move reaper up and down
+@char Reapers.ReaperGirl pos:40,-35
+@char Reapers.ReaperGirl pos:40,-45
+
 Reapers: Heh. There it is.
 
 LostSoul: B-but...I....
@@ -73,17 +73,22 @@ LostSoul: B-but...I....
 She sputtered and stammered, clearly caught off guard.
 
 @resetText Fullscreen
+
 @printer Dialogue
 
 LostSoul: Who are you-
 
-Reapers: I was teexting him right before he went on a hunt. Something about a tenacious killer. He wouldn't let his guard down, he said.
+Reapers: I was texting him right before he went on a hunt. Something about a tenacious killer. He wouldn't let his guard down, he said.
 
 Reapers: Heh...he always did have a soft spot for crying little girls.
 
 Reapers: It's been almost three weeks since I heard from him. I suppose that was you?
 
 LostSoul: ...
+
+@char LostSoul pos:15,-30
+@char LostSoul pos:20,-30
+
 
 @printer Fullscreen
 
@@ -97,11 +102,16 @@ If the little girl had a heart.
 
 LostSoul: Hee...
 
-;have her bounce
+@char LostSoul pos:20,-20
+@char LostSoul pos:20,-30
+@char LostSoul pos:20,-20
+@char LostSoul pos:20,-30
+
 
 LostSoul: Hee hee...
 
 @printer Fullscreen
+
 A small, childlike giggling fiiled the forest.
 The child held her fist to her mouth, laughing quietly as she looked up to the girl in red and black.
 But her eyes...
@@ -114,9 +124,12 @@ Her lips were carved into a sharp, lopsided smile as the continued.
 @resetText Fullscreen
 @printer Dialogue
 
+@char LostSoul pos:15,-30
+@char LostSoul pos:20,-30
+
 LostSoul: And what if it was?
 
-@resetText Fullscreen
+@printer Fullscreen
 
 Her voice was no longer sweet and innocent, 
 more like that of an adult who gleefully committed sins,
@@ -135,9 +148,9 @@ LostSoul: Human emotions are WAY too easy to manipulate.
 
 LostSoul: But you....I like you. I think I'll take my time with you.
 
-@char LostSoul.GrownWoman transition:DropFade time:3
+@char LostSoul.GrownWoman pos:20,-10 transition:Fade time:3
 
-@resetText Fullscreen
+@printer Fullscreen
 
 The 'child' began growing.
 Her hair grew longer, her lifeless eyes maturing with age.
@@ -146,16 +159,21 @@ It seemed as though the form she took was no longer needed.
 @resetText Fullscreen
 @printer Dialogue
 
-;bgm heartbeat
-@bgm 
+@bgm PromisedBloodBGM
 
 LostSoul.GrownWoman: I'm going to send you to Hell with the next village over. I hope you're ready.
 
 Reapers: As a Reaper, it is my sole duty to exorcise spirits with malicious intent. You can try.
 
+@char Reapers.ReaperGirl transition:Fade visible:false time:2
 
+@char LostSoul transition:Fade visible:false time:2
 
-@spawn
+@back ForestMovingBG.Fade id:MovingBGs time:4
+
+@char Reapers.ReaperGirl pos:50,-45 transition:FadeIn visible:true time:2
+
+Reapers: 
 
 
 
