@@ -165,15 +165,22 @@ LostSoul.GrownWoman: I'm going to send you to Hell with the next village over. I
 
 Reapers: As a Reaper, it is my sole duty to exorcise spirits with malicious intent. You can try.
 
-@char Reapers.ReaperGirl transition:Fade visible:false time:2
+@char Reapers.ReaperGirl visible:false transition:Fade time:.5
 
-@char LostSoul transition:Fade visible:false time:2
+@char LostSoul visible:false transition:Fade time:.5
 
 @back ForestMovingBG.Fade id:MovingBGs time:4
 
-@char Reapers.ReaperGirl pos:50,-45 transition:FadeIn visible:true time:2
+@printer Fullscreen
 
-Reapers: 
+Later...
+
+@resetText Fullscreen
+@printer Dialogue
+
+@char Reapers.ReaperGirl pos:50,-45 visible:true transition:FadeIn time:2
+
+Reapers: Phew...
 
 
 
