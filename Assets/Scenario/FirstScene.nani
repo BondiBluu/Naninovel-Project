@@ -12,11 +12,11 @@ Haah...
 
 @char LostSoul pos:50,-30 scale:.9
 
-LostSoul: Haah....I have to leave here.
+LostSoul: Haah... I have to leave here.
 
-LostSoul: She'll....she'll find me if I don't hurry...
+LostSoul: She'll... she'll find me if I don't hurry...
 
-LostSoul: I have to...have to...
+LostSoul: I have to.. have to...
 
 @stopSFX WoodsFootsteps
 
@@ -28,7 +28,7 @@ LostSoul: ?!
 
 @char Reapers pos:60,-45 scale:1.5
 
-Reapers: No no, go on. What were you saying? I'm dying to hear it.
+Reapers: No, no, go on. What were you saying? I'm dying to hear it.
 
 @sfx WindBlowing
 
@@ -42,7 +42,7 @@ Reapers: No no, go on. What were you saying? I'm dying to hear it.
 
 @printer Dialogue
 
-LostSoul: Haah...haah...
+LostSoul: Haah... haah...
 
 LostSoul: N-no...
 
@@ -51,8 +51,6 @@ LostSoul: Leave me alone!
 LostSoul: Someone, someone help me, please!
 
 @printer Fullscreen
-
-...The distant sound of wind rustling through the trees permeates the silence between the two
 
 The small child's screams echo into nothingness- her desperate pleas reaching no ears but the one in front of her.
 
@@ -88,11 +86,11 @@ LostSoul: Please...
 
 The girl nearly bursts into tears
 
-LostSoul: Please wait!
-
 @resetText Fullscreen
 
 @printer Dialogue
+
+LostSoul: Please wait!
 
 LostSoul: Why are you doing this?
 
@@ -104,9 +102,9 @@ Her voice breaks out into sobs
 
 @printer Dialogue
 
-LostSoul: I just....I just want to go home...to mama...and papa..
+LostSoul: I just.... I just want to go home... to mama... and papa..
 
-LostSoul: Mama's sick...I...I just want to get back...
+LostSoul: Mama's sick... I... I just want to get back...
 
 Reapers: ...
 
